@@ -5,6 +5,7 @@
 html{
     background-image: linear-gradient( to right , #e0c3fc , #8ec5fc);
     background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     height:100%;
     
@@ -12,17 +13,25 @@ html{
 
 ul {
     list-style: none;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
 
+li {
+    padding: 10px;
+}
+
+#listaCaixa {
+    width: 100%;
+    
 }
 
 
 input {
     margin: 0;
     border: none;
-    border-radius: 0;
-    width: 75%;
+    width: 100%;
     padding: 10px;
     font-size: 16px;
 
@@ -43,6 +52,11 @@ input {
 
 }
 
+h1 {
+    border-bottom: 1px solid gainsboro;
+
+    /* para fazer a borda preciso de 3 características: 1 grossura(px), 2 a forma se é sólida, tracejada etc e a 3 cor. Todas essas características entram antes do ponto e vírgula sem nada somente espaço */
+}
 
 .titulo {
     text-align: center;
@@ -51,8 +65,23 @@ input {
 
 
 .addbtn {
-    padding: 220px;
-    width: 25%;
-
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #ba7af8;
 }
 
+.lista {
+    width: 100%;
+    height: 100%;
+}
+
+.item_adicionado {
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.24);
+}
+
+.item_clicado {
+    text-decoration: line-through;
+    color: gray;
+    
+}

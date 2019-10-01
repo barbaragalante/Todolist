@@ -12,12 +12,13 @@ Tem como objetivo exercitar os conhecimento adquiridos em HTML, CSS, Javascript 
 
 ## FASES
 - **Fase 1**
-    - Adicionar itens na lista
-    - Poder dar check neles
-    - Validar campo de texto para não entrar itens vazios
-    - Limpar campo de texto depois que insere o item na lista
+    <!-- - Adicionar itens na lista --> 1
+    <!-- - Poder dar check neles --> 4
+    <!-- - Validar campo de texto para não entrar itens vazios --> 3
+    <!-- - Limpar campo de texto depois que insere o item na lista --> 2
 - **Fase 2**
     - Poder excluir itens da lista individualmente;
+    <!-- Criar uma div e guardar dentro da 'ul' pegar o 'li' e guardar dentro da nova div, criar um span e guardar dentro da div. e criar um addeventlistener. -->
 - **Fase 3**
     - Marcar todos os itens como feito
     - Limpar lista, excluir todos os itens da lista
