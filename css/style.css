@@ -3,20 +3,13 @@
 }
 
 html{
-    /* background-image: linear-gradient( to right , #e0c3fc , #8ec5fc);
-    background-repeat: no-repeat;
-    font-family: 'Open Sans', sans-serif;
-    overflow-y: hidden;
-    overflow-x: hidden; */
     width: 100vw; 
     height:100vh; 
 }
 
 body {
     background-image: linear-gradient( to right , #e0c3fc , #8ec5fc);
-    /* background-repeat: no-repeat; */
     font-family: 'Open Sans', sans-serif;
-    /* overflow-y: hidden; */
     overflow-x: hidden;
     display: flex;
     justify-content: center;
@@ -50,7 +43,7 @@ h1 {
     text-align: center;
     padding: 30px;
 
-    /* para fazer a borda preciso de 3 características: 1 grossura(px), 2 a forma se é sólida, tracejada etc e a 3 cor. Todas essas características entram antes do ponto e vírgula sem nada somente espaço */
+/* para fazer a borda preciso de 3 características: 1 grossura(px), 2 a forma se é sólida, tracejada etc e a 3 cor. Todas essas características entram antes do ponto e vírgula sem nada somente espaço */
 }
 
 #listaCaixa {
@@ -66,11 +59,6 @@ h1 {
 
   
 }
-
-
-
-
-
 
 .addbtn {
     padding: 10px;
@@ -105,6 +93,14 @@ h1 {
 }
 
 #btnRemover{
+    padding: 10px;
+    width: 135px;
+    height: 50px;
+    background-color: #ba7af8;
+
+}
+
+#btnSelecionados {
     padding: 10px;
     width: 135px;
     height: 50px;

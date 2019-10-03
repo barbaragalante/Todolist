@@ -18,15 +18,15 @@ let dragging
 // inserir a li na listaCaixa
 
 botaoAdicionar.addEventListener('click', function (evento) {
-    // no botão adicionar coloco uma orelha que irá escutar um evento de click e executar uma função
+// no botão adicionar coloco uma orelha que irá escutar um evento de click e executar uma função
     evento.preventDefault();
-    // essa ação evita que a página seja recarregada
+// essa ação evita que a página seja recarregada
     const mensagem = caixaTexto.value;
-    // capturei o conteúdo do input(caixa texto)
+// capturei o conteúdo do input(caixa texto)
     if (mensagem.trim() === "") {
-        // se a mensagem for vazia aparece o texto abaixo    
+// se a mensagem for vazia aparece o texto abaixo    
         erro.textContent = "Escreva um texto";
-        // criei o texto que vai no campo de erro
+// criei o texto que vai no campo de erro
     } else {
         erro.textContent = ""
 
@@ -78,6 +78,8 @@ botaoAdicionar.addEventListener('click', function (evento) {
 
         const remover = document.getElementById('btnRemover');
 
+        const selecionados = document.getElementById('btnSelecionados');
+
         lido.addEventListener("click", function (evento) {
             itemDaLista.classList.add('item_clicado');
         })
@@ -86,6 +88,9 @@ botaoAdicionar.addEventListener('click', function (evento) {
             listaCaixa.removeChild(novoItem);
         })
 
+        selecionados.addEventListener("click", function (evento) {
+            listaCaixa.removeChild(novoItem);
+        })
         // draganddrop
 
         listaCaixa.setAttribute("draggable", true);
