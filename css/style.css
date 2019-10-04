@@ -43,7 +43,8 @@ h1 {
     text-align: center;
     padding: 30px;
 
-/* para fazer a borda preciso de 3 características: 1 grossura(px), 2 a forma se é sólida, tracejada etc e a 3 cor. Todas essas características entram antes do ponto e vírgula sem nada somente espaço */
+/* para fazer a borda preciso de 3 características: 1 grossura(px), 2 a forma se é sólida, 
+tracejada etc e a 3 cor. Todas essas características entram antes do ponto e vírgula sem nada somente espaço */
 }
 
 #listaCaixa {
@@ -65,11 +66,17 @@ h1 {
     width: 100%;
     height: 100%;
     background-color: #ba7af8;
+    color: white;
 }
 
 
 .item_adicionado {
     box-shadow: 0px 1px rgba(0, 0, 0, 0.24);
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .item_clicado {
@@ -86,25 +93,27 @@ h1 {
 
 #btnLido {
     padding: 10px;
-    width: 135px;
+    width: 250px;
     height: 50px;
     background-color: #ba7af8;
-
+    color: white;
 }
 
 #btnRemover{
     padding: 10px;
-    width: 135px;
+    width: 250px;
     height: 50px;
     background-color: #ba7af8;
+    color: white;
 
 }
 
 #btnSelecionados {
     padding: 10px;
-    width: 135px;
+    width: 250px;
     height: 50px;
     background-color: #ba7af8;
+    color: white;
 
 }
 
@@ -127,16 +136,25 @@ h1{
         font-size: 25px;
     }
     #content {
-        width: 70%;
+        width: 80%;
+        font-size: 10px;
     }
 
     #btnLido {
-        width: 50%;
+        width: 60%;
+        font-size: 10px;
     }
 
     #btnRemover{
-
-        width: 50%;
+        width: 60%;
+        font-size: 10px;
     }
+
+    #btnSelecionados {
+        width: 60%;
+        font-size: 10px;
+
+    }
+    
  
 }

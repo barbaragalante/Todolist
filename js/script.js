@@ -9,8 +9,8 @@ const listaCaixa = document.getElementById('listaCaixa')
 const erro = document.getElementById('mensagemDeErro')
 // criar uma mensagem de erro no html(p)
 
-let dragging
-// aqui não preciso atribuir nenhum valor, porque ela precisa começar vazia para que eu possa atribuir valores.
+// let dragging
+
 
 
 //II - Inserir um event listener no addBtn (evento "click")
@@ -26,7 +26,7 @@ botaoAdicionar.addEventListener('click', function (evento) {
     // capturei o conteúdo do input(caixa texto)
     if (mensagem.trim() === "") {
         // se a mensagem for vazia aparece o texto abaixo    
-        erro.textContent = "Escreva um texto";
+        erro.textContent = "Por favor, escreva um texto!";
         // criei o texto que vai no campo de erro
     } else {
         erro.textContent = ""
